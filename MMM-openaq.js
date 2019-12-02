@@ -12,7 +12,7 @@ Module.register("MMM-openaq", {
   start: function() {
     this.getData();
     this.scheduleUpdate();
-    this.measures = [];
+    this.measurements = [];
 
   },
 
